@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> JOSÉ MAYCON</title>
+</head>
+<body>
+    <h1>tabelas</h1>
+<table border="1">
+    <tr>
+        <td>coluna 01 - linha 01</td>
+        <td>colununa 02 - linha</td>
+    </tr>
+    <tr>
+        <td>coluna 01 - linha 02</td>
+        <td>colununa 02 - linha 02</td>
+    </tr>
+</table>
+</body>
+</html>
+ 
