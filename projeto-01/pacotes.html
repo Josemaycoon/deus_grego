@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JM viagens</title>
+    <title>Document</title>
 </head>
-
 <body>
     
     <table  width="60%" align="center">
@@ -28,23 +26,32 @@
         <tr>
             <td colspan="2">
                 <h1>
-                    E-mail: XuPasseios@jmviagen.com.br
+                    Buscar pacotes de viagens
                 </h1>
                 <form action="http://191.252.62.149:8080/pweb/salvar.jsp" method="post">
-                    nome: <br>
-                    <input type="text" name="nome"><br>
+                    origem: <br>
+                    <input type="text" name="origem"><br>
                 
-                    email: <br>
-                    <input type="email" name="email"><br>
+                    destino: <br>
+                    <input type="text" name="destino"><br>
                 
-                    assunto: <br>
-                    <input type="text" name="assunto"> <br>
+                    data de partida: <br>
+                    <input type="date" name="data de partida"> <br>
 
-                    mensagem: <br>
-                    <textarea name="mensagem" id="" cols="30" rows="10"></textarea><br>
+                    data de retorno: <br>
+                    <input type="date" name="data de retorno"><br>
 
+                    quartos: <br>
+                    <input type="number" name="quartos"><br>
+
+                    qautidades de adultos: <br>
+                    <input type="number" name="quantidade de adultos">
+
+                    quantidade de crianças: <br>
+                    <input type="number" name="quantidade de crianças"><br>
+
+                    <input type="submit" value="buscar pacotes">
                     <input type="submit" value="enviar">
-                    <input type="submit" value="limpar">
                 </form>
             </td>
         </tr>
@@ -55,5 +62,4 @@
         </tr>
     </table>
 </body>
-
 </html>
