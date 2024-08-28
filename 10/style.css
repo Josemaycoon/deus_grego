@@ -1,0 +1,75 @@
+.bau{
+    background-color: cornflowerblue;
+    width: 300px;
+    height: 170px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+}
+.caixa{
+    width: 1300px;
+    height: 600px;
+    display: flex;
+
+}
+.box{
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box1{
+    background-color: rgb(255, 60, 0);
+    width: 300px;
+    height: 300px;
+    border-radius: 140px 180px 0px 180px ;
+}
+.box2{
+    background-color: rgb(68, 0, 255);
+    width: 300px;
+    height: 300px;
+    border-radius: 180px 140px 180px 0px ; 
+}
+.box3{
+    background-color: rgb(0, 255, 64);
+    width: 300px;
+    height: 300px;
+    border-radius: 180px 0px 180px 140px ;
+}
+.box4{
+    background-color: rgb(208, 255, 0);
+    width: 300px;
+    height: 300px;
+    border-radius: 0px 180px 140px 180px ;
+}
+.conteiner{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.conteiner1{
+    background-color: rgb(255, 60, 0);
+    width: 300px;
+    height: 300px;
+    border-radius: 300px 0px 0px 0px ;
+}
+.conteiner2{
+    background-color: rgb(68, 0, 255);
+    width: 300px;
+    height: 300px;
+    border-radius: 0px 300px 0px 0px ;
+}
+.conteiner3{
+    background-color: rgb(0, 255, 64);
+    width: 300px;
+    height: 300px;
+    border-radius: 0px 0px 0px 300px ;
+}
+.conteiner4{
+    background-color: rgb(208, 255, 0);
+    width: 300px;
+    height: 300px;
+    border-radius: 0px 0px 300px 0px ;
+}
+
